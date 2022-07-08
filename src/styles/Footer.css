@@ -15,3 +15,11 @@
     font-size: 12px;
     color: gray;
 }
+
+/* screens from 769px to 1200px */
+
+@media only screen and (max-width: 1000px) {
+    .footer {
+        display: none;
+    }
+}

@@ -34,6 +34,9 @@ const Header = () => {
                 <SearchIcon />
                 <input type="text" placeholder='Search' />
             </div>
+            <div className="header-mobile">
+                <SearchIcon />
+            </div>
         </div>
         <div className="header-right"> 
             <HeaderOptions Icon={HomeIcon} title='Home' />
